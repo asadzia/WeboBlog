@@ -1,0 +1,81 @@
+/* CSS declarations go here */
+
+.web_item{
+     color: #FFC469;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.web_desc{
+     color: rgba(255,255,255,.9);;
+    font-weight: 500;
+}
+
+.web_addedBy{
+     color: rgba(255,255,255,.5);;
+    font-weight: 500;
+    font-size: 80%;
+}
+
+.wells {
+  position: relative;
+  height: 18em;
+  padding-top: 2em;
+  padding-left: 1em;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  border-left: 3px solid #ccc;
+  border-right:3px solid #ccc;
+  margin-top: 5.0em;
+  opacity:0.9;
+  overflow:hidden;
+  height:1%;
+}
+
+.ReturnButton {
+    margin: 0 auto;
+    width: 220px;
+}
+
+#myWell{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    color: #fff;
+    background: #B0B0B0;
+}
+
+h4 {
+    color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+h4:hover,
+h4:focus {
+    color: #eb3812;
+}
+
+
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: #D0D0D0;
+  transform: translate(-10%, -50%);
+  width: 44%;
+  height: 68%;
+}
+
+.modal-title {
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#000;
+    text-align: center;
+}
